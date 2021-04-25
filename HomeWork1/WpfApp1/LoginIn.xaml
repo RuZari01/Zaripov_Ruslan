@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp1.LoginIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="Resources/cat.png" x:Name="PhotoProfile" Width="100" HorizontalAlignment="Left" />
+        <Label x:Name="LabelName" Content="LabelName" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="105,0,125,0" Width="70"/>
+        <Label x:Name="LabelLastName" Content="LabelLastName" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="105,26,95,48" Width="100"/>
+        <Label x:Name="LabelRole" Content="LabelRole" HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="105,69,125,5" Width="70"/>
+
+        <StackPanel Grid.Row="2">
+            <Button x:Name="BtnSales" Content="Заказ"  Height="30"/>
+            <Button x:Name="BtnStatus" Content="Статус" Height="30"/>
+            <Button x:Name="BtnClient" Content="Клиенты" Height="30"/>
+            <Button x:Name="BtnCategory" Content="Категория" Height="30"/>
+            <Button x:Name="BtnProduct" Content="Продукты" Height="30"/>
+        </StackPanel>
+        <Button x:Name="BtnAddSales" Content="+" Margin="10,276,255,10" Grid.Row="1" Click="BtnAddSales_Click"/>
+    </Grid>
+</Window>
