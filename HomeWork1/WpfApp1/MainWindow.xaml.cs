@@ -29,21 +29,21 @@ namespace WpfApp1
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             
-            if (TextBoxLogin.Text == "login" && (PasswordBox1.Password == "1111" || TextBoxPassword.Text == "1111"))
+            if (TextBoxLogin.Text == "login" && (PasswordBox1.Password == "tuptup" || TextBoxPassword.Text == "tuptup"))
             {         
                 role = 0;
                 LoginIn LohinIn = new LoginIn(role);
                 LohinIn.Show();
             }
-            //if(TextBoxLogin.Text == "login2" && (PasswordBox1.Password == "2222" || TextBoxPassword.Text == "2222"))
-            //{
-            //    role = 1;
-            //    LoginIn LohinIn = new LoginIn(role);
-            //    LohinIn.Show();
-            //}
+            if (TextBoxLogin.Text == "login2" && (PasswordBox1.Password == "2222" || TextBoxPassword.Text == "2222"))
+            {
+                role = 1;
+                LoginIn LohinIn = new LoginIn(role);
+                LohinIn.Show();
+            }
             else
             {
-                MessageBox.Show("Проверьте правильность ввода");
+                MessageBox.Show("Проверьте правильность ввода", "ОшибкаПроверьте правильность ввода", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -51,7 +51,7 @@ namespace WpfApp1
         {
             if(TextBoxLogin.Text == "" || (PasswordBox1.Password == "" || TextBoxPassword.Text == ""))
             {
-                MessageBox.Show("Заполните поля");
+                MessageBox.Show("ошибка","Заполните поля", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

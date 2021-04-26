@@ -18,3 +18,4 @@ C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\Style.baml
 C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\App.baml
 C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\AddSale.g.cs
 C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\AddSale.baml
+C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache

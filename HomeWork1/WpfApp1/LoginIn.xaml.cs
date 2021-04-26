@@ -40,7 +40,7 @@ namespace WpfApp1
                     LabelName.Content = "Константин";
                     LabelLastName.Content = "Горин";
                     LabelRole.Content = "Админ";
-                    PhotoProfile.Source = new BitmapImage(new Uri(@"pack://application:,,,/images/cat.png"));
+                    //PhotoProfile.Source = new BitmapImage(new Uri(@"pack://application:,,,/images/cat.png"));
                     break;
             }
         }
