@@ -35,15 +35,15 @@ namespace WpfApp1
                 LoginIn LohinIn = new LoginIn(role);
                 LohinIn.Show();
             }
-            if (TextBoxLogin.Text == "login2" && (PasswordBox1.Password == "2222" || TextBoxPassword.Text == "2222"))
-            {
-                role = 1;
-                LoginIn LohinIn = new LoginIn(role);
-                LohinIn.Show();
-            }
+            //if (TextBoxLogin.Text == "login2" && (PasswordBox1.Password == "2222" || TextBoxPassword.Text == "2222"))
+            //{
+            //    role = 1;
+            //    LoginIn LohinIn = new LoginIn(role);
+            //    LohinIn.Show();
+            //}
             else
             {
-                MessageBox.Show("Проверьте правильность ввода", "ОшибкаПроверьте правильность ввода", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Проверьте правильность ввода", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 

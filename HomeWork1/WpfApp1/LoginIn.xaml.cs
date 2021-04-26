@@ -32,12 +32,12 @@ namespace WpfApp1
             switch (RoleId)
             {
                 case 0:
-                    LabelName.Content = "Виталий";
-                    LabelLastName.Content = "Колчук";
+                    LabelName.Content = "Роман";
+                    LabelLastName.Content = "Калайда";
                     LabelRole.Content = "Менеджер";
                     break;
                 case 1:
-                    LabelName.Content = "Константин";
+                    LabelName.Content = "Геннадий";
                     LabelLastName.Content = "Горин";
                     LabelRole.Content = "Админ";
                     //PhotoProfile.Source = new BitmapImage(new Uri(@"pack://application:,,,/images/cat.png"));
