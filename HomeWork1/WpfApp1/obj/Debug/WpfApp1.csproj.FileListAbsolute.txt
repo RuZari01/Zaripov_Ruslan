@@ -19,3 +19,10 @@ C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\App.baml
 C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\AddSale.g.cs
 C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\AddSale.baml
 C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ruzar\Desktop\C#\HomeWork1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete

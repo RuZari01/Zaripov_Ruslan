@@ -32,7 +32,7 @@ namespace WpfApp1
             if (TextBoxLogin.Text == "login" && (PasswordBox1.Password == "tuptup" || TextBoxPassword.Text == "tuptup"))
             {         
                 role = 0;
-                LoginIn LohinIn = new LoginIn(role);
+                LoginIn LohinIn = new LoginIn(role); //role
                 LohinIn.Show();
             }
             //if (TextBoxLogin.Text == "login2" && (PasswordBox1.Password == "2222" || TextBoxPassword.Text == "2222"))

@@ -20,10 +20,11 @@ namespace WpfApp1
     public partial class LoginIn : Window
     {
         int RoleId;
-        public LoginIn(int _role)
+        public LoginIn(int role)//int _role
         {
             InitializeComponent();
-            RoleId = _role;
+            DataGridMagazine.ItemsSource = TestMagazineEntities.GetContext().User.ToList();
+
             Date();
         }
 
@@ -49,6 +50,11 @@ namespace WpfApp1
         {
             var AddSale = new AddSale();
             AddSale.Show();
+        }
+
+        private void Btnedit_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
